@@ -2,8 +2,8 @@
 import 'dart:io';
 import 'dart:developer' as developer;
 import 'package:flutter/foundation.dart';
-import 'package:idealab/plugins/logger/log_output.dart';
-import 'package:idealab/plugins/logger/logger.dart';
+import 'package:logger/src/logger.dart';
+import 'package:logger/src/log_output.dart';
 
 const bool _kReleaseMode = kReleaseMode;
 /// Default implementation of [LogOutput].
